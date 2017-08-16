@@ -1,0 +1,305 @@
+@import map-get
+@import responsive_for_all
++exports("amc_animate_article_mini_responsive")
+	// Large Screen
+	@media #{$amc-max-2560}
+	@media #{$amc-max-2560-landscape}
+	@media #{$amc-max-2560-portrait}
+	
+	@media #{$amc-max-1920}
+	@media #{$amc-max-1920-landscape}
+	@media #{$amc-max-1920-portrait}
+	
+	@media #{$amc-max-1600}
+		.amc_animate_article
+			.block
+				.content
+					padding: 1em
+					.scroll-text
+						height: 250px
+						overflow-y: scroll
+						scrollbar-base-color: #C0C0C0
+						scrollbar-base-color: #C0C0C0
+						scrollbar-3dlight-color: #C0C0C0
+						scrollbar-highlight-color: #C0C0C0
+						scrollbar-track-color: #EBEBEB
+						scrollbar-arrow-color: black
+						scrollbar-shadow-color: #C0C0C0
+						scrollbar-dark-shadow-color: #C0C0C0
+						&::-webkit-scrollbar
+							width: 5px
+							height: 10px
+						&::-webkit-scrollbar-button
+							background-color: map-get($amaris-color-hot,2)
+						&::-webkit-scrollbar-track
+							background-color: #999
+						&::-webkit-scrollbar-track-piece
+							background-color: map-get($amaris-color-hot,2)
+						&::-webkit-scrollbar-thumb
+							height: 50px
+							background-color: rgba(white, 0)
+						&::-webkit-scrollbar-corner
+							background-color: #cdcdcd
+						&::-webkit-resizer
+							background-color: #666
+						&::-moz-scrollbar
+							width: 5px
+							height: 10px
+						&::-moz-scrollbar-button
+							background-color: map-get($amaris-color-hot,2)
+						&::-moz-scrollbar-track
+							background-color: #999
+						&::-moz-scrollbar-track-piece
+							background-color: map-get($amaris-color-hot,2)
+						&::-moz-scrollbar-thumb
+							height: 50px
+							background-color: rgba(white, 0)
+						&::-moz-scrollbar-corner
+							background-color: #cdcdcd
+						&::-moz-resizer
+							background-color: #666
+						&::-ms-scrollbar
+							width: 5px
+							height: 10px
+						&::-ms-scrollbar-button
+							background-color: map-get($amaris-color-hot,2)
+						&::-ms-scrollbar-track
+							background-color: #999
+						&::-ms-scrollbar-track-piece
+							background-color: map-get($amaris-color-hot,2)
+						&::-ms-scrollbar-thumb
+							height: 50px
+							background-color: rgba(white, 0)
+						&::-ms-scrollbar-corner
+							background-color: #cdcdcd
+						&::-ms-resizer
+							background-color: #666
+	@media #{$amc-max-1600-landscape}
+	@media #{$amc-max-1600-portrait}
+	// Medium Screen
+	@media #{$amc-max-1366}
+	@media #{$amc-max-1366-landscape}
+	@media #{$amc-max-1366-portrait}
+
+	@media #{$amc-min-1025}
+	@media #{$amc-max-1024}
+		.amc_animate_article
+			.scro-down
+			.block
+				.img-wrap-vert
+					h1,
+					h2,
+					h3,
+					h4,
+					h5,
+					h6,
+					p
+					.stage
+						img
+							&:first-child
+							&.active
+					.bg-dark
+					.dept-title
+						p
+					&.active
+						h1,
+						h2,
+						h3,
+						h4,
+						h5,
+						h6,
+						p
+						.bg-dark
+						.dept-title
+							p
+				.content
+					padding: 1em 1em 4em 1em !important
+					h1,
+					h2,
+					h3
+					p
+					.quote
+					.main-content
+					.scroll-text
+				.apply-btn
+					bottom: 1em !important
+	@media #{$amc-max-1024-landscape}
+	@media #{$amc-max-1024-portrait}
+		.amc_animate_article
+			.scro-down
+			.block
+				.img-wrap-vert
+					h1,
+					h2,
+					h3,
+					h4,
+					h5,
+					h6,
+					p
+					.stage
+						img
+							&:first-child
+							&.active
+					.bg-dark
+					.dept-title
+						p
+					&.active
+						h1,
+						h2,
+						h3,
+						h4,
+						h5,
+						h6,
+						p
+						.bg-dark
+						.dept-title
+							p
+				.content
+					h1,
+					h2,
+					h3
+					p
+					.quote
+					.main-content
+					.scroll-text
+				.apply-btn
+	// Small Screen
+	@media #{$amc-max-768}
+	@media #{$amc-max-768-landscape}
+		.amc_animate_article
+			.scro-down
+			.block
+				.img-wrap-vert
+					width: 50%
+					h1,
+					h2,
+					h3,
+					h4,
+					h5,
+					h6,
+					p
+					.stage
+						img
+							&:first-child
+							&.active
+					.bg-dark
+					.dept-title
+						p
+					&.active
+						h1,
+						h2,
+						h3,
+						h4,
+						h5,
+						h6,
+						p
+						.bg-dark
+						.dept-title
+							p
+				.content
+					width: 50%
+					h1,
+					h2,
+					h3
+					p
+					.quote
+					.main-content
+					.scroll-text
+				.apply-btn
+	@media #{$amc-max-768-portrait}
+		.amc_animate_article
+			.scro-down
+			.block
+				.img-wrap-vert
+					h1,
+					h2,
+					h3,
+					h4,
+					h5,
+					h6,
+					p
+					.stage
+						img
+							&:first-child
+							&.active
+					.bg-dark
+					.dept-title
+						p
+					&.active
+						h1,
+						h2,
+						h3,
+						h4,
+						h5,
+						h6,
+						p
+						.bg-dark
+						.dept-title
+							p
+				.content
+					h1,
+					h2,
+					h3
+					p
+					.quote
+					.main-content
+					.scroll-text
+						height: auto
+						overflow-y: inital
+				.apply-btn
+					bottom: 0
+	@media #{$amc-max-568}
+	@media #{$amc-max-568-landscape}
+		.amc_animate_article
+			.scro-down
+			.block
+				.img-wrap-vert
+					h1,
+					h2,
+					h3,
+					h4,
+					h5,
+					h6,
+					p
+					.stage
+						img
+							&:first-child
+							&.active
+					.bg-dark
+					.dept-title
+						p
+					&.active
+						h1,
+						h2,
+						h3,
+						h4,
+						h5,
+						h6,
+						p
+						.bg-dark
+						.dept-title
+							p
+				.content
+					padding: 1em 1em 2em 1em !important
+					h1,
+					h2,
+					h3
+					p
+					.quote
+					.main-content
+					.scroll-text
+				.apply-btn
+					bottom: -0.65em !important
+	@media #{$amc-max-568-portrait}
+	// extra small Screen
+	@media #{$amc-max-320}
+	@media #{$amc-max-320-landscape}
+	@media #{$amc-max-320-portrait}
+
+
+
+
+
+
+
+					

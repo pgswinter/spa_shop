@@ -1,0 +1,154 @@
+@import map-get
+@import common
+@import amc_animation
++exports("amc_animate_article")
+	.amc_animate_article
+		overflow: hidden
+		position: relative
+		@extend .clear-float
+		.run
+			padding: 0 20px
+			background-color: lightblue
+			color: #fff
+			text-align: center
+			text-decoration: none
+		.scro-down
+			bottom: initial
+			top: 85vh
+		.block
+			padding-left: 0
+			padding-right: 0
+			cursor: pointer
+			position: relative
+			border-bottom-width: 1px
+			border-bottom-style: solid
+			border-bottom-color: #fff
+			background-color: map-get($amaris-color-hot,2)
+			@extend .clear-float
+			.img-wrap-vert
+				padding-left: 0
+				padding-right: 0
+				position: relative
+				overflow: hidden
+				h1,
+				h2,
+				h3,
+				h4,
+				h5,
+				h6,
+				p
+					position: absolute
+					opacity: 0
+					@extend .transition-effect-2
+					bottom: 40px
+					text-align: left
+					left: 0
+					color: #555
+					font-weight: bold
+					background-color: rgba(white, 0.69)
+					z-index: 2
+					padding: 0 0 0 0
+				.stage
+					img
+						display: none
+						width: 100%
+						&:first-child
+							display: block
+						&.active
+							display: block !important
+							position: absolute
+							top: 0
+							left: 0
+							right: 0
+							margin-left: auto
+							margin-right: auto
+							opacity: 1 !important
+							&:first-child
+								position: relative
+				.bg-dark
+					@extend .bg-dark
+					display: none
+				.dept-title
+					p
+						bottom: -5px
+						text-align: right
+						padding: 0 0
+						width: 0
+						color: #fff
+						font-weight: normal
+						background-color: map-get($amaris-color-hot, 2)
+						@extend .transition-effect-2
+				&.active
+					h1,
+					h2,
+					h3,
+					h4,
+					h5,
+					h6,
+					p
+						opacity: 1
+						padding: 5px 10px 12px 30px
+					.bg-dark
+						display: block
+						opacity: 0.69
+					.dept-title
+						p
+							opacity: 1
+							padding: 3px 10px
+							width: 90%
+			.content
+				margin-bottom: 0
+				height: 100%
+				padding: 3em
+				h1,
+				h2,
+				h3
+					color: #fff
+					text-align: center
+				p
+					color: #fff
+					font-size: 10pt
+					margin-top: 0
+					margin-bottom: 0
+				.quote
+					// position: relative
+					// text-align: center
+					// font-size: 13pt
+					// padding-bottom: 1em
+					// p
+					// 	text-align: center
+					// 	width: 100%
+				.main-content
+					// position: relative
+					// p
+			// &:hover
+			// 	.img-wrap-vert
+			// 		@extend .change-img
+			// 		h1,
+			// 		h2,
+			// 		h3,
+			// 		h4,
+			// 		h5,
+			// 		h6,
+			// 		p
+			// 			@extend .amc_animate_article_anim1
+			// 		.dept-title
+			// 			p
+			// 				@extend .amc_animate_article_anim2;
+			// 		.content
+			// 			@extend .amc_animate_article_anim3
+			// 			p
+			// 				@extend .amc_animate_article_anim4
+			// 		.bg-dark
+			// 			@extend .amc_animate_article_anim5
+			.apply-btn
+				background-color: #fff
+				color: map-get($amaris-color-hot,2)
+				padding: 0.5em
+				z-index: 1
+				text-transform: uppercase
+				position: absolute
+				bottom: 0
+				width: 130px
+				text-align: center
+				@extend .set-cent-horizon
