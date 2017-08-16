@@ -1,0 +1,48 @@
+@import map-get
+@import common
++exports("amc_footer")
+	.mobi-landing
+		footer
+			&.main-foot
+				position: absolute
+				bottom: 0
+				left: 0
+				width: 100%
+	footer.main-foot,
+	.for-abs
+		padding: 35px 0
+		background-color: map-get($amaris-color-dark,1)
+		color: map-get($amaris-color-dark,2)
+		a
+			color: map-get($amaris-color-dark,2)
+			font-family: map-get($amaris-font-segoe,1)
+			&:hover
+				color: #fff
+				text-decoration: none
+		h3,
+		h4
+			margin: 10px 0
+			color: map-get($amaris-color-hot,2)
+		h3
+			float: left
+		ul
+			float: left
+			margin-left: 20px
+			margin-top: -10px
+			li
+				float: left
+				a
+					font-size: 36pt
+					width: 45px
+					height: 45px
+					display: block
+					margin-right: 10px
+					@extend .transition-effect
+					&:hover
+						width: 50px
+						height: 50px
+	.for-abs
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%

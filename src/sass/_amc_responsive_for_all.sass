@@ -1,0 +1,320 @@
+@import map-get
+@import responsive_for_all
++exports("amc_responsive_for_all")
+	// *** START ---------- Monitor + Laptop + Special Tablet Screen and Range of width between them
+	@media #{$amc-min-2561}
+	@media #{$amc-max-2560}
+		// Grid Devices
+		.amc-grid
+			float: left
+			&.amc-col-lg-1
+				width: 100%
+			&.amc-col-lg-2
+				width: 50%
+			&.amc-col-lg-3
+				width: 33.33%
+			&.amc-col-lg-4
+				width: 25%
+			&.amc-col-lg-5
+				width: 20%
+	@media #{$amc-phone-2560-1440-portrait}
+		.amc-grid
+			float: left
+			&.amc-col-lggalaxys7-1
+				width: 100%
+			&.amc-col-lggalaxys7-2
+				width: 50%
+			&.amc-col-lggalaxys7-3
+				width: 33.33%
+			&.amc-col-lggalaxys7-4
+				width: 25%
+			&.amc-col-lggalaxys7-5
+				width: 20%
+	@media #{$amc-min-1921-max-2560}
+	// Tablet Kindle Fire HDX
+	@media #{$amc-tablet-2560-1600}
+	@media #{$amc-tablet-2560-1600-landscape}
+	// Monitor - priority
+	@media #{$amc-pc-2560-800}
+	@media #{$amc-min-1681-max-1920}
+	// Monitor - priority
+	@media #{$amc-pc-1920-1080}
+	@media #{$amc-min-1601-max-1680}
+	// Monitor
+	@media #{$amc-pc-1680-1050}
+	@media #{$amc-min-1401-max-1600}
+	// Tablet Kindle Fire HDX - portrait
+	@media #{$amc-tablet-2560-1600-portrait}
+	@media #{$amc-min-1367-max-1400}
+	// Monitor
+	@media #{$amc-pc-1400-900}
+	// Monitor
+	@media #{$amc-pc-1400-800}
+	@media #{$amc-min-1201-max-1366}
+	// Tablet iPad Pro
+	@media #{$amc-tablet-1366-1024}
+	@media #{$amc-tablet-1366-1024-landscape}
+		.amc-grid
+			float: left
+			&.amc-col-mdipadpro-landscape-1
+				width: 100%
+			&.amc-col-mdipadpro-landscape-2
+				width: 50%
+			&.amc-col-mdipadpro-landscape-3
+				width: 33.33%
+			&.amc-col-mdipadpro-landscape-4
+				width: 25%
+			&.amc-col-mdipadpro-landscape-5
+				width: 20%
+	// Laptop - priority
+	@media #{$amc-pc-1366-768}
+	// Laptop
+	@media #{$amc-pc-1200-900}
+	// Laptop
+	@media #{$amc-pc-1200-800}
+	// *** END ---------- Monitor + Laptop + Special Tablet Screen and Range of width between them
+	// *** START ---------- Tablet + Special Phone Screen and Range of width between them
+	@media #{$amc-min-1025}
+	@media #{$amc-max-1024}
+		*::-webkit-scrollbar
+			display: none
+	@media #{$amc-min-961-max-1024}
+	// Tablet iPad Pro - portrait
+	@media #{$amc-tablet-1366-1024-portrait}
+		.amc-grid
+			float: left
+			&.amc-col-mdipadpro-1
+				width: 100%
+			&.amc-col-mdipadpro-2
+				width: 50%
+			&.amc-col-mdipadpro-3
+				width: 33.33%
+			&.amc-col-mdipadpro-4
+				width: 25%
+			&.amc-col-mdipadpro-5
+				width: 20%
+	// Xiaomi Redmi Note3 PRO - portrait
+	@media #{$amc-tablet-1920-1080-portrait}
+		.amc-grid
+			float: left
+			&.amc-col-xiaomi-portrait-1
+				width: 100%
+			&.amc-col-xiaomi-portrait-2
+				width: 50%
+			&.amc-col-xiaomi-portrait-3
+				width: 33.33%
+			&.amc-col-xiaomi-portrait-4
+				width: 25%
+			&.amc-col-xiaomi-portrait-5
+				width: 20%
+	// BlackBerry
+	@media #{$amc-phone-1024-600-landscape}
+	// Common Tablet - priority
+	@media #{$amc-tablet-landscape}
+	// iPad 3 & 4 - priority
+	@media #{$amc-tablet-1024-768-landscape-ipad}
+		.amc-grid
+			float: left
+			&.amc-col-mdipad-landscape-1
+				width: 100%
+			&.amc-col-mdipad-landscape-2
+				width: 50%
+			&.amc-col-mdipad-landscape-3
+				width: 33.33%
+			&.amc-col-mdipad-landscape-4
+				width: 25%
+			&.amc-col-mdipad-landscape-5
+				width: 20%
+	// iPad Mini - priority
+	@media #{$amc-tablet-1024-768-landscape-ipadmini}
+	@media #{$amc-tablet-1920-1080-portrait}
+	@media #{$amc-min-769-max-960}
+	// Nexus 7
+	@media #{$amc-phone-960-600-landscape}
+	@media #{$amc-max-800}
+		// Grid Devices
+		.amc-grid
+			float: left
+			&.amc-col-md-1
+				width: 100%
+			&.amc-col-md-2
+				width: 50%
+			&.amc-col-md-3
+				width: 33.33%
+			&.amc-col-md-4
+				width: 25%
+			&.amc-col-md-5
+				width: 20%
+	@media #{$amc-min-769}
+	@media #{$amc-max-768}
+	// Common Tablet - portrait - priority
+	@media #{$amc-tablet}
+	@media #{$amc-tablet-portrait}
+	// TABLET Name and range of width between them
+	// iPad 3 & 4 - portrait - priority
+	@media #{$amc-tablet-1024-768-ipad}
+	@media #{$amc-tablet-1024-768-portrait-ipad}
+	// iPad Mini - portrait - priority
+	@media #{$amc-tablet-1024-768-ipadmini}
+	@media #{$amc-tablet-1024-768-portrait-ipadmini}
+	// *** END ---------- Tablet + Special Phone Screen and Range of width between them
+	// *** START ---------- Phone Screen and Range of width between them
+	@media #{$amc-min-737-max-768}
+	@media #{$amc-min-733-max-736}
+	// iPhone 6 + - priority 
+	@media #{$amc-phone-736-414-landscape}
+		.amc-grid
+			float: left
+			&.amc-col-mdiphone6plus-1
+				width: 100%
+			&.amc-col-mdiphone6plus-2
+				width: 50%
+			&.amc-col-mdiphone6plus-3
+				width: 33.33%
+			&.amc-col-mdiphone6plus-4
+				width: 25%
+			&.amc-col-mdiphone6plus-5
+				width: 20%
+	@media #{$amc-min-668-max-732}
+	// Phone 1
+	@media #{$amc-phone-732-412-landscape}
+	@media #{$amc-min-641-max-667}
+	// iPhone 6 - priority 
+	@media #{$amc-phone-667-375-landscape}
+		.amc-grid
+			float: left
+			&.amc-col-smi6-landscape-1
+				width: 100%
+			&.amc-col-smi6-landscape-2
+				width: 50%
+			&.amc-col-smi6-landscape-3
+				width: 33.33%
+			&.amc-col-smi6-landscape-4
+				width: 25%
+			&.amc-col-smi6-landscape-5
+				width: 20%
+	@media #{$amc-min-601-max-640}
+	// Phone 3
+	@media #{$amc-phone-640-384-landscape}
+	// Galaxy S5
+	@media #{$amc-phone-640-360-landscape-galaxys5}
+	// Galaxy S4
+	@media #{$amc-phone-640-320-landscape-galaxys4}
+	// Galaxy S3
+	@media #{$amc-phone-640-320-landscape-galaxys3}
+	@media #{$amc-min-569-max-600}
+	// BlackBerry - portrait
+	@media #{$amc-phone-1024-600}
+	@media #{$amc-phone-1024-600-portrait}
+	// Nexus 7 - portrait
+	@media #{$amc-phone-960-600}
+	@media #{$amc-phone-960-600-portrait}
+	@media #{$amc-min-534-max-568}
+	// iPhone 5 and 5S - priority 
+	@media #{$amc-phone-568-320-landscape}
+		.amc-grid
+			float: left
+			&.amc-col-smiphone5-1
+				width: 100%
+			&.amc-col-smiphone5-2
+				width: 50%
+			&.amc-col-smiphone5-3
+				width: 33.33%
+			&.amc-col-smiphone5-4
+				width: 25%
+			&.amc-col-smiphone5-5
+				width: 20%
+	@media #{$amc-min-481-max-533}
+	// Phone 4
+	@media #{$amc-phone-533-320-landscape}
+	@media #{$amc-min-413-max-480}
+	// Common Phone
+	@media #{$amc-phone-landscape}
+	// iPhone 4 and 4S - priority 
+	@media #{$amc-phone-480-320-landscape}
+		.amc-grid
+			float: left
+			&.amc-col-smi4-landscape-1
+				width: 100%
+			&.amc-col-smi4-landscape-2
+				width: 50%
+			&.amc-col-smi4-landscape-3
+				width: 33.33%
+			&.amc-col-smi4-landscape-4
+				width: 25%
+			&.amc-col-smi4-landscape-5
+				width: 20%
+	@media #{$amc-min-385-max-414}
+	// iPhone 6 + - portrait - priority 
+	@media #{$amc-phone-736-414}
+	@media #{$amc-phone-736-414-portrait}
+	// Phone 1 - portrait
+	@media #{$amc-phone-732-412}
+	@media #{$amc-phone-732-412-portrait}
+	@media #{$amc-min-376-max-384}
+	// Phone 3 - portrait
+	@media #{$amc-phone-640-384}
+	@media #{$amc-phone-640-384-portrait}
+	@media #{$amc-min-361-max-375}
+	// iPhone 6 - portrait - priority 
+	@media #{$amc-phone-667-375}
+	@media #{$amc-phone-667-375-portrait}
+		.amc-grid
+			float: left
+			&.amc-col-smi6-1
+				width: 100%
+			&.amc-col-smi6-2
+				width: 50%
+			&.amc-col-smi6-3
+				width: 33.33%
+			&.amc-col-smi6-4
+				width: 25%
+			&.amc-col-smi6-5
+				width: 20%
+	@media #{$amc-min-321-max-360}
+	// Galaxy S5 - portrait 
+	@media #{$amc-phone-640-360-galaxys5}
+	@media #{$amc-phone-640-360-portrait-galaxys5}
+	@media #{$amc-min-384}
+	@media #{$amc-max-384}
+		// Grid Devices
+		.amc-grid
+			float: left
+			&.amc-col-sm-1
+				width: 100%
+			&.amc-col-sm-2
+				width: 50%
+			&.amc-col-sm-3
+				width: 33.33%
+			&.amc-col-sm-4
+				width: 25%
+			&.amc-col-sm-5
+				width: 20%
+	// Common Phone - portrait 
+	@media #{$amc-phone}
+	@media #{$amc-phone-portrait}
+	// Galaxy S4 - portrait 
+	@media #{$amc-phone-640-320-galaxys4}
+	@media #{$amc-phone-640-320-portrait-galaxys4}
+	// Galaxy S3 - portrait 
+	@media #{$amc-phone-640-320-galaxys3}
+	@media #{$amc-phone-640-320-portrait-galaxys3}
+	// Phone 4 - portrait
+	@media #{$amc-phone-533-320}
+	@media #{$amc-phone-533-320-portrait}
+	// iPhone 5 and 5S - portrait - priority 
+	@media #{$amc-phone-568-320}
+	@media #{$amc-phone-568-320-portrait}
+	// iPhone 4 and 4S - portrait - priority 
+	@media #{$amc-phone-480-320}
+	@media #{$amc-phone-480-320-portrait}
+	
+	// *** END ---------- Phone Screen and Range of width between them
+
+
+
+
+
+
+
+					

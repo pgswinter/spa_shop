@@ -1,0 +1,59 @@
+.set-bg
+.cont-form.apply-form-career.col-lg-6.col-md-9.col-sm-9.set-cent-abs.set-cent-vert.indx-huma
+	.title
+		h2 Apply form
+		span.close
+			i.fa.fa-close
+	.right-area.col-lg-12.col-md-12.col-sm-12
+		.form-inline
+			.form-group
+				label First name *
+				input(type="text", class="form-control", placeholder="")
+			.form-group
+				label Last name 	*
+				input(type="text", class="form-control", placeholder="")
+			.form-group
+				label Email address *
+				input(type="text", class="form-control", placeholder="")
+			.form-group
+				label Current city *
+				input(type="text", class="form-control", placeholder="")
+			.form-group
+				label Phone number *
+				label.sr-only
+				.input-group
+					.addon-item
+						.input-display.select-flag.bar
+						ul.hide-element.list-flag.list-item
+							li
+								.item-wrapper
+									img(src="imgs/romania.jpg",alt="",width="35px")
+									span (+40)
+										i.fa.fa-caret-down
+							li
+								.item-wrapper
+									img(src="imgs/eng.jpg",alt="",width="35px")
+									span (+40)
+										i.fa.fa-caret-down
+							li
+								.item-wrapper
+									img(src="imgs/vn.jpg",alt="",width="35px")
+									span (+40)
+										i.fa.fa-caret-down
+					input(type="text", class="form-control", id="" placeholder="Type your input")
+					input(type="checkbox")
+					label
+						a(target="_blank", href="/docs/default-source/default-document-library/terms-and-conditions.pdf") I agree with the terms and conditions
+			.form-group
+				label Your resume
+				.txt-wrapper
+					textarea(name="",id="",cols="30",rows="10",placeholder="Drag and drop your file here")
+					p Or upload your document
+					input(id="ui_browser", type="submit", class="brow-btn", value="Browse...")
+					input(id="action_browser", type="file", class="hide-element", value="Browse...")
+				.clear
+			.form-group
+				button(class="appl-job-btn")
+					i(class="fa fa-calendar-check-o") Apply
+
+	.clear

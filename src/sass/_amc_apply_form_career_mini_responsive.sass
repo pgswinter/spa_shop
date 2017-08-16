@@ -1,0 +1,128 @@
+@import map-get
+@import responsive_for_all
++exports("amc_apply_form_career_mini_responsive")
+	// Large Screen
+	@media #{$amc-max-2560}
+	@media #{$amc-max-2560-landscape}
+	@media #{$amc-max-2560-portrait}
+	
+	@media #{$amc-max-1920}
+	@media #{$amc-max-1920-landscape}
+	@media #{$amc-max-1920-portrait}
+	
+	@media #{$amc-max-1600}
+		.apply-form-career
+			width: 75% !important
+	@media #{$amc-max-1600-landscape}
+	@media #{$amc-max-1600-portrait}
+	// Medium Screen
+	@media #{$amc-max-1366}
+		.apply-form-career,
+		.suggest-event-form
+			width: 50% !important
+			height: 50%
+			overflow: hidden
+			overflow-y: scroll
+			.right-area
+				.form-inline
+					.form-group
+						.txt-wrapper
+							textarea
+								height: 50px
+	@media #{$amc-max-1366-landscape}
+	@media #{$amc-max-1366-portrait}
+
+	@media #{$amc-max-1024}
+		.apply-form-career
+			height: 700px
+			.left-area
+				display: none
+			.right-area
+				.form-inline
+					.appl-job-btn
+						margin-left: 0
+						width: 100%
+	@media #{$amc-max-1024-landscape}
+	@media #{$amc-max-1024-portrait}
+	// Small Screen
+	@media #{$amc-max-768}
+		.apply-form-career
+			width: 600px !important
+			.right-area
+				.form-inline
+					.form-group
+						margin-bottom: 5px
+						input
+							margin-bottom: 8px
+						.txt-wrapper
+							textarea
+								display: none
+	@media #{$amc-max-768-landscape}
+		.apply-form-career
+			width: 600px !important
+			height: 100%
+			overflow-y: scroll
+	@media #{$amc-max-768-portrait}
+
+	@media #{$amc-max-568}
+		.apply-form-career
+			width: 300px !important
+			height: 50%
+			overflow-y: scroll
+	@media #{$amc-max-568-landscape}
+		.apply-form-career
+			height: 70%
+			width: 500px !important
+			.right-area
+				.form-inline
+					.form-group
+						label
+							font-size: 8pt
+						.item-wrapper
+							span
+								display: none
+	@media #{$amc-max-568-portrait}
+		.apply-form-career
+			height: 70%
+			width: 90%
+			.title
+				h2
+					font-size: 10pt
+			.right-area
+				.form-inline
+					.form-group
+						#Phone
+							width: 100%
+						input
+						.txt-wrapper
+							padding: 3px
+							p
+								font-size: 8pt
+							textarea
+								&::-webkit-input-placeholder
+									opacity: 0
+								&::-moz-placeholder
+									opacity: 0
+								&:-ms-input-placeholder
+									opacity: 0
+								&:-moz-placeholder
+									opacity: 0
+					.appl-job-btn
+						margin-left: 0
+						width: 100%
+
+	// extra small Screen
+	@media #{$amc-max-320}
+		.apply-form-career
+			height: 70%
+			overflow-y: scroll
+	@media #{$amc-max-320-landscape}
+	@media #{$amc-max-320-portrait}
+
+
+
+
+
+
+
+					

@@ -1,0 +1,181 @@
+@import map-get
+@import common
++exports("amc_apply_form_career")
+	.set-bg
+		display: none
+		&.active
+			display: block
+	.apply-form-career
+		position: fixed
+		margin-left: auto
+		margin-right: auto
+		left: 0
+		right: 0
+		top: 50%
+		background-color: map-get($amaris-color-dark,1)
+		border-left: 1px solid #cdcdcd
+		border-right: 1px solid #cdcdcd
+		padding-left: 0
+		padding-right: 0
+		opacity: 0
+		display: none
+		&.active
+			display: block
+			opacity: 1
+		h2
+			font-size: 15pt
+		label,
+		p,
+		h3,
+		h2
+			font-family: map-get($amaris-font-segoe,1)
+		h2,
+		h3
+			border-bottom: none
+		.close
+			position: absolute
+			right: 15px
+			top: 10px
+			font-size: 20pt
+			text-shadow: none
+			opacity: 1
+			i
+				color: map-get($amaris-color-hot,2)
+		.title
+			background-color: #fff
+			padding: 15px
+			
+			h2
+				width: 100%
+				text-align: center
+				padding-top: 0
+				padding-bottom: 0
+				color: map-get($amaris-color-dark,1)
+				font-weight: bold
+		.left-area
+			padding: 72px 20px 0 20px
+			h3
+				font-size: 12pt
+				color: #fff
+				color: map-get($amaris-color-hot,2)
+			ul
+				background-image: url(../../images/process2.png)
+				background-repeat: no-repeat
+				background-position: 100% 0
+				min-height: 600px
+				li
+					padding-right: 42pt
+					&:nth-child(2)
+						padding-top: 65px
+					&:nth-child(3)
+						padding-top: 115px
+					&:nth-child(4)
+						padding-top: 80px
+					p
+						margin-bottom: 0
+						text-align: right
+						font-size: 9pt
+						color: #fff
+		.right-area
+			background-color: #f6f7fb
+			padding: 30px
+			input[type="checkbox"]
+				float: left
+				display: block
+				margin-top: 8px
+				&~label
+					width: 90% !important
+					padding-left: 5%
+			.form-inline
+				.form-group
+					position: relative
+					width: 100%
+					margin-bottom: 22px
+					label
+						width: 30%
+						float: left
+						margin-top: 5px
+						font-weight: normal
+					.input-group
+						position: relative
+						width: 70%
+						.addon-item
+							width: 30%
+							background-color: #fff
+							border: 1px solid #000
+							padding: 6px
+							float: left
+							cursor: pointer
+							.bar
+								background-color: transparent
+								padding: 0
+								width: auto
+							.list-item
+								li
+									background-color: transparent
+									padding: 0
+									padding-bottom: 5px;
+							ul
+								border-top: 1px solid #cdcdcd
+								padding-top: 5px
+								padding-left: 6px
+								left: 0
+								margin-top: 7px
+								position: absolute
+								z-index: 1
+								background-color: #fff
+								width: 105px
+								border: 1px solid #000
+								border-top: none
+								li
+									padding-bottom: 5px
+							.item-wrapper
+								span
+									i
+										margin-left: 6px
+						input[type="text"]
+							float: left	
+							width: 70%
+							padding-top: 6px
+							padding-bottom: 6px
+							border-left: 0
+							height: 37px
+					> input
+						width: 70%
+					input
+						border: 1px solid map-get($amaris-color-dark,1)
+						box-shadow: none
+					.txt-wrapper
+						width: 70%
+						float: left
+						border: 5px dashed map-get($amaris-color-dark,2)
+						border-radius: 5px
+						background-color: #fff
+						padding: 20px
+						textarea
+							width: 100%
+							border: none
+							text-align: center
+							font-size: 12pt
+							font-family: map-get($amaris-font-segoe,1)
+						p
+							float: left
+							font-size: 13pt
+						.brow-btn
+							padding: 10px
+							border-radius: 3px
+							background-color: #fff
+							float: left
+							margin-left: 5px
+							margin-bottom: 0
+				.appl-job-btn
+					margin: 0 auto
+					display: block
+					padding: 10px 20px
+					color: #fff
+					font-size: 11pt
+					margin-bottom: 10px
+					width: 70%
+					background-color: map-get($amaris-color-hot,2)
+					margin-left: 30%
+					margin-top: 30px

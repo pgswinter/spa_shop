@@ -1,0 +1,665 @@
+@import common
++exports("amc_animation")	
+	@keyframes floating
+		0%
+			transform: translateY(0%)
+			opacity: 0.7
+		
+		50%
+			transform: translateY(10%)
+			opacity: 1
+		
+		100% 
+			transform: translateY(0%)
+			opacity: 0.7
+
+	@-webkit-keyframes floating
+		0%
+			-webkit-transform: translateY(0%)
+		
+		50%
+			-webkit-transform: translateY(10%)	
+		
+		100%
+			-webkit-transform: translateY(0%)
+			
+	.floating
+		animation-name: floating
+		-webkit-animation-name: floating
+
+		animation-duration: 3s
+		-webkit-animation-duration: 3s
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+	@keyframes blind
+		0%
+			opacity: 0.2
+		50%
+			opacity: 1
+		100% 
+			opacity: 0.2
+	@-webkit-keyframes blind
+		0%
+			opacity: 0.2
+		50%
+			opacity: 1
+		100% 
+			opacity: 0.2
+	.blind_dot1
+		background-color: #ff3600 !important
+		animation-duration: 1s
+		-webkit-animation-duration: 1s
+		
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+	.blind_dot2
+		background-color: #ff4817
+
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+		
+		animation-duration: 1s
+		-webkit-animation-duration: 1s
+	.blind_dot3
+		background-color: #ff572a
+		animation-duration: 1s
+		-webkit-animation-duration: 1s
+		
+		-webkit-transition-delay: 2s
+		transition-delay: 2s
+
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+	.blind_dot4
+		background-color: #ff663d
+		animation-duration: 2.5s
+		-webkit-animation-duration: 2.5s
+
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+	.blind_dot5
+		background-color: #ff7651
+		animation-duration: 3.5s
+		-webkit-animation-duration: 3.5s
+
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+	.blind_dot6
+		background-color: #ff8969
+		animation-duration: 4s
+		-webkit-animation-duration: 4s
+
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+	.blind_dot7
+		background-color: #ff997e
+		animation-duration: 4.5s
+		-webkit-animation-duration: 4.5s
+
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+	.blind_dot8
+		background-color: #ffaf99
+		animation-duration: 5s
+		-webkit-animation-duration: 5s
+
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+	.blind_dot9
+		background-color: #ffc5b6
+		animation-duration: 5.5s
+		-webkit-animation-duration: 5.5s
+
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+	.blind_dot10
+		background-color: #ffdbd1
+		animation-duration: 6s
+		-webkit-animation-duration: 6s
+
+		animation-name: blind
+		-webkit-animation-name: blind
+		
+		animation-timing-function: ease-in-out
+		-webkit-animation-timing-function: ease-in-out
+
+		animation-play-state: running
+		-webkit-animation-play-state: running
+
+		animation-iteration-count: infinite
+		-webkit-animation-iteration-count: infinite
+		animation-direction:alternate
+		-webkit- animation-direction:alternate
+
+	@-webkit-keyframes play
+		0%
+			background-position: 0% 0px
+		100%
+			background-position: 100% 0px
+	@-moz-keyframes play
+		0%
+			background-position: 0% 0px
+		100%
+			background-position: 100% 0px
+	@-ms-keyframes play
+		0%
+			background-position: 0% 0px
+		100%
+			background-position: 100% 0px
+	@-o-keyframes play
+		0%
+			background-position: 0% 0px
+		100%
+			background-position: 100% 0px
+	@keyframes play
+		0%
+			background-position: 0% 0px
+		100%
+			background-position: 100% 0px
+	.change-img
+		-webkit-animation: 1.5s 1 play forwards steps(4)
+		-ms-animation: 1.5s 1 play forwards steps(4)
+		-moz-animation: 1.5s 1 play forwards steps(4)
+		-o-animation: 1.5s 1 play forwards steps(4)
+		animation: 1.5s 1 play forwards steps(4)
+	// Use for amc_animate_article
+	// Animation 01
+	@-webkit-keyframes amc_anim1
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			padding: 5px 10px 12px 30px
+	@-moz-keyframes amc_anim1
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			padding: 5px 10px 12px 30px
+	@-ms-keyframes amc_anim1
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			padding: 5px 10px 12px 30px
+	@-o-keyframes amc_anim1
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			padding: 5px 10px 12px 30px
+	@-webkit-keyframes amc_anim1
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			padding: 5px 10px 12px 30px
+	.amc_animate_article_anim1
+		-webkit-animation: 1s amc_anim1 forwards
+		-ms-animation: 1s amc_anim1 forwards 
+		-moz-animation: 1s amc_anim1 forwards
+		-o-animation: 1 amc_anim1 forwards
+		animation: 1s amc_anim1 forwards
+		-ms-animation-delay: 2s;
+		-moz-animation-delay: 2s;
+		-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+		animation-delay: 2s;
+	// Animation 02
+	@-webkit-keyframes amc_anim2
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			width: 90%
+			padding: 3px 10px
+	@-moz-keyframes amc_anim2
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			width: 90%
+			padding: 3px 10px
+	@-ms-keyframes amc_anim2
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			width: 90%
+			padding: 3px 10px
+	@-o-keyframes amc_anim2
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			width: 90%
+			padding: 3px 10px
+	@-webkit-keyframes amc_anim2
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			width: 90%
+			padding: 3px 10px
+	.amc_animate_article_anim2
+		-webkit-animation: 1s amc_anim2 forwards
+		-ms-animation: 1s amc_anim2 forwards 
+		-moz-animation: 1s amc_anim2 forwards
+		-o-animation: 1 amc_anim2 forwards
+		animation: 1s amc_anim2 forwards
+		-ms-animation-delay: 2s;
+		-moz-animation-delay: 2s;
+		-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+		animation-delay: 2s;
+
+	// Animation 03
+	@-webkit-keyframes amc_anim3
+		0%
+			opacity: 0
+		100%
+			width: 85%
+			opacity: 1
+			text-align: justify
+			background-color: transparent
+			z-index: 1
+			overflow: hidden
+	@-moz-keyframes amc_anim3
+		0%
+			opacity: 0
+		100%
+			width: 85%
+			opacity: 1
+			text-align: justify
+			background-color: transparent
+			z-index: 1
+			overflow: hidden
+	@-ms-keyframes amc_anim3
+		0%
+			opacity: 0
+		100%
+			width: 85%
+			opacity: 1
+			text-align: justify
+			background-color: transparent
+			z-index: 1
+			overflow: hidden
+	@-o-keyframes amc_anim3
+		0%
+			opacity: 0
+		100%
+			width: 85%
+			opacity: 1
+			text-align: justify
+			background-color: transparent
+			z-index: 1
+			overflow: hidden
+	@-webkit-keyframes amc_anim3
+		0%
+			opacity: 0
+		100%
+			width: 85%
+			opacity: 1
+			text-align: justify
+			background-color: transparent
+			z-index: 1
+			overflow: hidden
+	.amc_animate_article_anim3
+		-webkit-animation: 1s amc_anim3 forwards
+		-ms-animation: 1s amc_anim3 forwards 
+		-moz-animation: 1s amc_anim3 forwards
+		-o-animation: 1 amc_anim3 forwards
+		animation: 1s amc_anim3 forwards
+		-ms-animation-delay: 2s;
+		-moz-animation-delay: 2s;
+		-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+		animation-delay: 2s;
+
+	// Animation 04
+	@-webkit-keyframes amc_anim4
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			background-color: transparent
+			color: #fff
+			width: 100%
+			height: 100%
+			bottom: inherit
+			text-align: justify
+			padding: 0
+			font-weight: normal
+	@-moz-keyframes amc_anim4
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			background-color: transparent
+			color: #fff
+			width: 100%
+			height: 100%
+			bottom: inherit
+			text-align: justify
+			padding: 0
+			font-weight: normal
+	@-ms-keyframes amc_anim4
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			background-color: transparent
+			color: #fff
+			width: 100%
+			height: 100%
+			bottom: inherit
+			text-align: justify
+			padding: 0
+			font-weight: normal
+	@-o-keyframes amc_anim4
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			background-color: transparent
+			color: #fff
+			width: 100%
+			height: 100%
+			bottom: inherit
+			text-align: justify
+			padding: 0
+			font-weight: normal
+	@-webkit-keyframes amc_anim4
+		0%
+			opacity: 0
+		100%
+			opacity: 1
+			background-color: transparent
+			color: #fff
+			width: 100%
+			height: 100%
+			bottom: inherit
+			text-align: justify
+			padding: 0
+			font-weight: normal
+	.amc_animate_article_anim4
+		-webkit-animation: 1s amc_anim4 forwards
+		-ms-animation: 1s amc_anim4 forwards 
+		-moz-animation: 1s amc_anim4 forwards
+		-o-animation: 1 amc_anim4 forwards
+		animation: 1s amc_anim4 forwards
+		-ms-animation-delay: 2s;
+		-moz-animation-delay: 2s;
+		-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+		animation-delay: 2s;
+	// Animation 05
+	@-webkit-keyframes amc_anim5
+		0%
+			opacity: 0
+		100%
+			opacity: 0.5
+	@-moz-keyframes amc_anim5
+		0%
+			opacity: 0
+		100%
+			opacity: 0.5
+	@-ms-keyframes amc_anim5
+		0%
+			opacity: 0
+		100%
+			opacity: 0.5
+	@-o-keyframes amc_anim5
+		0%
+			opacity: 0
+		100%
+			opacity: 0.5
+	@-webkit-keyframes amc_anim5
+		0%
+			opacity: 0
+		100%
+			opacity: 0.5
+	.amc_animate_article_anim5
+		-webkit-animation: 1s amc_anim5 forwards
+		-ms-animation: 1s amc_anim5 forwards 
+		-moz-animation: 1s amc_anim5 forwards
+		-o-animation: 1 amc_anim5 forwards
+		animation: 1s amc_anim5 forwards
+		-ms-animation-delay: 2s;
+		-moz-animation-delay: 2s;
+		-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+		animation-delay: 2s;
+
+	// animate hover display 4 directions
+	@-webkit-keyframes hide_left
+		0%
+			opacity: 0
+			left: -100%
+		100%
+			opacity: 1
+			left: 50%
+	@-moz-keyframes hide_left
+		0%
+			opacity: 0
+			left: -100%
+		100%
+			opacity: 1
+			left: 50%
+	@-ms-keyframes hide_left
+		0%
+			opacity: 0
+			left: -100%
+		100%
+			opacity: 1
+			left: 50%
+	@-o-keyframes hide_left
+		0%
+			opacity: 0
+			left: -100%
+		100%
+			opacity: 1
+			left: 50%
+	.hover_left_direction
+		-webkit-animation: 0.25s hide_left forwards
+		-ms-animation: 0.25s hide_left forwards 
+		-moz-animation: 0.25s hide_left forwards
+		-o-animation: 0.25s hide_left forwards
+		animation: 0.25s hide_left forwards
+	@-webkit-keyframes hide_right
+		0%
+			opacity: 0
+			right: -100%
+		100%
+			opacity: 1
+			right: inherit
+	@-moz-keyframes hide_right
+		0%
+			opacity: 0
+			right: -100%
+		100%
+			opacity: 1
+			right: inherit
+	@-ms-keyframes hide_right
+		0%
+			opacity: 0
+			right: -100%
+		100%
+			opacity: 1
+			right: inherit
+	@-o-keyframes hide_right
+		0%
+			opacity: 0
+			right: -100%
+		100%
+			opacity: 1
+			right: inherit
+	.hover_right_direction
+		-webkit-animation: 0.25s hide_right forwards
+		-ms-animation: 0.25s hide_right forwards 
+		-moz-animation: 0.25s hide_right forwards
+		-o-animation: 0.25s hide_right forwards
+		animation: 0.25s hide_right forwards
+	@-webkit-keyframes hide_top
+		0%
+			opacity: 0
+			top: -100%
+		100%
+			opacity: 1
+			top: 50%
+	@-moz-keyframes hide_top
+		0%
+			opacity: 0
+			top: -100%
+		100%
+			opacity: 1
+			top: 50%
+	@-ms-keyframes hide_top
+		0%
+			opacity: 0
+			top: -100%
+		100%
+			opacity: 1
+			top: 50%
+	@-o-keyframes hide_top
+		0%
+			opacity: 0
+			top: -100%
+		100%
+			opacity: 1
+			top: 50%
+	.hover_top_direction
+		-webkit-animation: 0.25s hide_top forwards
+		-ms-animation: 0.25s hide_top forwards 
+		-moz-animation: 0.25s hide_top forwards
+		-o-animation: 0.25s hide_top forwards
+		animation: 0.25s hide_top forwards
+	@-webkit-keyframes hide_bottom
+		0%
+			opacity: 0
+			bottom: -100%
+		100%
+			opacity: 1
+			bottom: inherit
+	@-moz-keyframes hide_bottom
+		0%
+			opacity: 0
+			bottom: -100%
+		100%
+			opacity: 1
+			bottom: inherit
+	@-ms-keyframes hide_bottom
+		0%
+			opacity: 0
+			bottom: -100%
+		100%
+			opacity: 1
+			bottom: inherit
+	@-o-keyframes hide_bottom
+		0%
+			opacity: 0
+			bottom: -100%
+		100%
+			opacity: 1
+			bottom: inherit
+	.hover_bottom_direction
+		-webkit-animation: 0.25s hide_bottom forwards
+		-ms-animation: 0.25s hide_bottom forwards 
+		-moz-animation: 0.25s hide_bottom forwards
+		-o-animation: 0.25s hide_bottom forwards
+		animation: 0.25s hide_bottom forwards

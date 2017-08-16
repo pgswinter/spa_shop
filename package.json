@@ -1,0 +1,39 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Front-End Workspace of Amaris Webiste",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anh (Robert)",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "exports-loader": "^0.6.4",
+    "express": "^4.15.3",
+    "file-loader": "^0.11.2",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "optimize-css-assets-webpack-plugin": "^2.0.0",
+    "pump": "^1.0.2",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0",
+    "webpack": "^2.6.1"
+  }
+}

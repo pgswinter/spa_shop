@@ -1,0 +1,49 @@
+@import map-get
+@import common
++exports("amc_header")
+	header
+		position: fixed
+		width: 100%
+		.head-wrap
+			position: relative
+			width: 100%
+			.top-head
+				background-color: transparent
+				// background-color: rgba(255,255,255,0.8)
+				.logo-amar
+					margin: 0 auto
+					a
+						// width: 35%
+						display: block
+						margin: 0 auto
+						img
+							width: 100%
+				.only-righ
+					@extend .set-cent-vert
+					right: 24px
+					transition: all 300ms	ease
+					-webkit-transition: all 300ms	ease
+					-moz-transition: all 300ms ease
+					-ms-transition: all 300ms	ease
+					.the-butt
+						float: left
+						background-color: transparent
+						padding: 5px 12px
+						font-weight: bold
+						font-size: 14pt
+						&.btn-cont
+							margin-right: 10px
+							border: 2px solid transparent
+							&:hover
+								color: map-get($amaris-color-hot,2)
+						&.btn-appl
+							border: 2px solid map-get($amaris-color-hot,2)
+							color: map-get($amaris-color-hot,2)
+							text-transform: uppercase
+							&:hover
+								background-color: map-get($amaris-color-hot,2)
+								color: #fff
+							&:active,
+							&:checked
+								background-color: map-get($amaris-color-hot,2)
+								color: #fff
